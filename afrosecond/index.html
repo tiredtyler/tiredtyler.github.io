@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Афродита 2</title>
-    <link rel="stylesheet" href="./css/main.css" />
+    <title>Афродита</title>
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
@@ -22,30 +22,30 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="./index.html">
+                  <a class="menu__link" href="/index.html">
                     <img
                       class="menu__icon"
-                      src="./img/main_icon.png"
+                      src="/img/main_icon.png"
                       alt="Главная"
                     />
                     <span class="menu__text">ГЛАВНАЯ</span>
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="./reviews.html">
+                  <a class="menu__link" href="/reviews.html">
                     <img
                       class="menu__icon"
-                      src="./img/feed_icon.png"
+                      src="/img/feed_icon.png"
                       alt="Отзывы"
                     />
                     <span class="menu__text">ОТЗЫВЫ</span>
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="./services.html">
+                  <a class="menu__link" href="/services.html">
                     <img
                       class="menu__icon"
-                      src="./img/service_icon.png"
+                      src="/img/service_icon.png"
                       alt="Услуги"
                     />
                     <span class="menu__text">УСЛУГИ</span>
@@ -64,20 +64,22 @@
         </div>
       </header>
       <!--Баннер-->
-      <div class="banner">
-        <img src="./img/justdoit.png" alt="justdoit" class="banner__image" />
+      <div class="container">
+        <div class="banner">
+          <img src="/img/justdoit.png" alt="justdoit" class="banner__image" />
+        </div>
       </div>
       <!--Отсюда основная часть-->
       <div class="maincontent">
-        <div class="container">
-          <section class="features">
+        <!--Особенности-->
+        <section class="features">
+          <div class="container">
             <h1 class="features__headline">ОСОБЕННОСТИ</h1>
-            <!--Уникальность-->
             <ul class="features__list">
               <li class="features__item">
                 <div class="features__image">
                   <img
-                    src="./img/flower_icon.png"
+                    src="/img/flower_icon.png"
                     alt="Уникальность"
                     class="features__icon"
                   />
@@ -101,7 +103,7 @@
               <li class="features__item">
                 <div class="features__image">
                   <img
-                    src="./img/star_icon.png"
+                    src="/img/star_icon.png"
                     alt="Премиум-класс"
                     class="features__icon"
                   />
@@ -125,7 +127,7 @@
               <li class="features__item">
                 <div class="features__image">
                   <img
-                    src="./img/palette_icon.png"
+                    src="/img/palette_icon.png"
                     alt="Личный тренер"
                     class="features__icon"
                   />
@@ -147,16 +149,19 @@
                 </ul>
               </li>
             </ul>
-          </section>
-          <section class="news">
-            <div class="news__main">
-              <h1 class="news__headline">
-                последние новости
-              </h1>
+          </div>
+        </section>
+        <!--Новости-->
+        <section class="news">
+          <div class="container">
+            <h1 class="news__headline">
+              последние новости
+            </h1>
+            <div class="nowrap__content">
               <ul class="news__list">
                 <li class="news__item">
                   <img
-                    src="./img/abstraction_news.png"
+                    src="/img/abstraction_news.png"
                     alt=""
                     class="news__picture"
                   />
@@ -175,9 +180,10 @@
                     </p>
                   </div>
                 </li>
+                <hr />
                 <li class="news__item">
                   <img
-                    src="./img/fireman_news.png"
+                    src="/img/fireman_news.png"
                     alt=""
                     class="news__picture"
                   />
@@ -197,9 +203,10 @@
                     </p>
                   </div>
                 </li>
+                <hr />
                 <li class="news__item">
                   <img
-                    src="./img/abstraction_news.png"
+                    src="/img/abstraction_news.png"
                     alt=""
                     class="news__picture"
                   />
@@ -219,7 +226,30 @@
                   </div>
                 </li>
               </ul>
+              <aside class="sidebar">
+                <h4 class="sidebar__headline">топ новостей</h4>
+                <h4 class="sidebar__month">за сентябрь</h4>
+                <div class="top">
+                  <img
+                    src="/img/septnews_one.png"
+                    alt=""
+                    class="sidebar__image"
+                  />
+                  <img
+                    src="/img/septnews_two.png"
+                    alt=""
+                    class="sidebar__image"
+                  />
+                  <img
+                    src="/img/septnews_three.png"
+                    alt=""
+                    class="sidebar__image"
+                  />
+                </div>
+              </aside>
             </div>
+          </div>
+          <div class="container">
             <div class="pagination">
               <div class="pagination__display">
                 Страница 1 из 7
@@ -252,84 +282,70 @@
                 <a href="#" class="pagintaion_next"></a>
               </div>
             </div>
-            <aside class="sidebar">
-              <h4 class="sidebar__headline">топ новостей</h4>
-              <h4 class="sidebar__month">за сентябрь</h4>
-              <div class="top">
-                <img src="./img/septnews_one.png" alt="" class="sidebar" />
-                <img src="./img/septnews_two.png" alt="" class="sidebar" />
-                <img src="./img/septnews_three.png" alt="" class="sidebar" />
-              </div>
-            </aside>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
-    </div>
-
-    <!--footer-->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__content">
-          <div class="creator">
+      <!--footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
             <p class="creator__text">
               Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool.
               Автор работы: Алешков Марк
             </p>
-          </div>
-
-          <div class="logo">
-            <a href="/index.html" class="logo__link">афродита</a>
-          </div>
-
-          <div class="socials">
-            <div class="socials__text">
-              <p class="socials__text-item">Наши социальные сети</p>
+            <div class="logo">
+              <a href="/index.html" class="logo__link">афродита</a>
             </div>
-            <ul class="socials__list">
-              <li class="socials__item">
-                <a href="#" class="socials__link"
-                  ><img
-                    src="./img/socials_vk.png"
-                    alt="мы в контакте"
-                    class="socials__image"
-                /></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link"
-                  ><img
-                    src="./img/socials_fb.png"
-                    alt="мы в фэйсбуке"
-                    class="socials__image"
-                /></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link"
-                  ><img
-                    src="./img/socials_google.png"
-                    alt="мы в гугл плюс"
-                    class="socials__image"
-                /></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link"
-                  ><img
-                    src="./img/socials_twitter.png"
-                    alt="мы в твиттере"
-                    class="socials__image"
-                /></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link"
-                  ><img
-                    src="./img/socials_mail.png"
-                    alt="наша почта"
-                    class="socials__image"
-                /></a>
-              </li>
-            </ul>
+            <div class="socials">
+              <p class="socials__text">
+                Наши социальные сети
+              </p>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="#" class="socials__link"
+                    ><img
+                      src="/img/socials_vk.png"
+                      alt="мы в контакте"
+                      class="socials__image"
+                  /></a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link"
+                    ><img
+                      src="/img/socials_fb.png"
+                      alt="мы в фэйсбуке"
+                      class="socials__image"
+                  /></a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link"
+                    ><img
+                      src="/img/socials_google.png"
+                      alt="мы в гугл плюс"
+                      class="socials__image"
+                  /></a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link"
+                    ><img
+                      src="/img/socials_twitter.png"
+                      alt="мы в твиттере"
+                      class="socials__image"
+                  /></a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link"
+                    ><img
+                      src="/img/socials_mail.png"
+                      alt="наша почта"
+                      class="socials__image"
+                  /></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
