@@ -1,0 +1,38 @@
+.start-page__block {
+    width: 177px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-page__image {
+    width: 160px;
+    height: 191px;
+}
+
+.start-page__button {
+    width: 175px;
+    text-decoration: none;
+}
+
+.start-page__button-text {
+    background-color: #131415;
+    color: #ffffff;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-family: "open-sans";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+}
+
+.start-page__button-text:hover {
+    background-color: #f89513;
+}

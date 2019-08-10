@@ -1,0 +1,30 @@
+.sidebar {
+    width: 190px;
+    margin-left: 27px;
+}
+
+.sidebar__image {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.sidebar__headline {
+    font-family: "open-sans";
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+.sidebar__month {
+    font-family: "open-sans";
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    color: #656464;
+    margin: 0;
+    margin-bottom: 23px;
+}
