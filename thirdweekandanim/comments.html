@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1100" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Афродита</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+</html>
+<body>
+  <div class="wrapper">
+    <!--header-->
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <!--Лого-->
+          <div class="logo">
+            <a href="./about.html" class="logo__link">афродита</a>
+          </div>
+          <!--Меню-->
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="./about.html">
+                  <img
+                    class="menu__icon"
+                    src="./img/main_icon.png"
+                    alt="Главная"
+                  />
+                  <span class="menu__text">ГЛАВНАЯ</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="./comments.html">
+                  <img
+                    class="menu__icon"
+                    src="./img/feed_icon.png"
+                    alt="Отзывы"
+                  />
+                  <span class="menu__text menu__text-active">ОТЗЫВЫ</span>
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="./services.html">
+                  <img
+                    class="menu__icon"
+                    src="./img/service_icon.png"
+                    alt="Услуги"
+                  />
+                  <span class="menu__text">УСЛУГИ</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!--Контакты-->
+          <address class="contacts">
+            <a href="tel:+78000039210" class="contacts__phone"
+              >8 (800) 00-392-10</a
+            >
+            <div class="contacts__schedule">График работы</div>
+          </address>
+        </div>
+      </div>
+    </header>
+    <!--основная часть-->
+    <main class="maincontent">
+      <!--breadcrumbs-->
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="./about.html" class="breadcrumbs__link">Главная</a>
+              <div class="breadcrumbs__separator">/</div>
+            </li>
+            <li class="breadcrumbs__item">
+              <a
+                href="./comments.html"
+                class="breadcrumbs__link breadcrumbs__link--unactive"
+                >Отзывы</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--отзывы-->
+      <section class="comments">
+        <div class="container">
+          <h1 class="comments__headline">
+            отзывы
+          </h1>
+          <div class="comments__content">
+            <ul class="comments__list">
+              <li class="comments__item">
+                <div class="comments__picture">
+                  <img
+                    src="./img/voronov_comment.png"
+                    alt="отзыв воронова"
+                    class="comments__image"
+                  />
+                </div>
+                <div class="comment__desc">
+                  <div class="comment__date">12.06.2019</div>
+                  <h5 class="comment__author">Алексей Воронов</h5>
+                  <p class="comment__text">
+                    Пришел, чтобы похудеть немного к лету, но благодаря тренеру
+                    Александру Ковалеву, получилось накачать нормальные банки.
+                    Втянулся, теперь занимаюсь регулярно, 2 раза в неделю,
+                    доволен и всем советую. Кстати, польза от тренировок намного
+                    заметнее, если придерживаться ПП. Рацион мне составили на
+                    неделю, но я его повторяю, не надоедает.
+                  </p>
+                </div>
+              </li>
+              <hr />
+              <li class="comments__item">
+                <div class="comments__picture">
+                  <img
+                    src="./img/smolnaya_comment.png"
+                    alt="отзыв смольной"
+                    class="comments__image"
+                  />
+                </div>
+                <div class="comment__desc">
+                  <div class="comment__date">01.02.2019</div>
+                  <h5 class="comment__author">Инна Смольная</h5>
+                  <p class="comment__text">
+                    Подарили на день рождения абонемент в бассейн, пришлось
+                    воспользоваться. Сама бы я сюда не пришла, не очень нравится
+                    плавать с мужиками, которые пялятся постоянно, администрации
+                    следует обратить внимание на этот вопрос! Еще бросилось в
+                    глаза хамство обслуживающего персонала. Уборщица в
+                    раздевалке вела себя, как будто это к ней в гости пришли.
+                  </p>
+                </div>
+              </li>
+              <hr />
+              <li class="comments__item">
+                <div class="comments__picture">
+                  <img
+                    src="./img/savelyev_comment.png"
+                    alt="отзыв савельева"
+                    class="comments__image comments__image--nopic"
+                  />
+                </div>
+                <div class="comment__desc">
+                  <div class="comment__date">22.12.2018</div>
+                  <h5 class="comment__author">Владимир Савельев</h5>
+                  <p class="comment__text">
+                    Норм клуб, железа хватает, но техника устаревшая. За эту
+                    цену – прокатит. Если хотите большего, то обращайтесь в
+                    специализированные тренажерки с новым железом и европейской
+                    техникой.
+                  </p>
+                </div>
+              </li>
+              <hr />
+              <li class="comments__item">
+                <div class="comments__picture">
+                  <img
+                    src="./img/savina_comment.png"
+                    alt="отзыв савиной"
+                    class="comments__image"
+                  />
+                </div>
+                <div class="comment__desc">
+                  <div class="comment__date">14.08.2018</div>
+                  <h5 class="comment__author">Ирина Савина</h5>
+                  <p class="comment__text">
+                    Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат.
+                    Даже знакомые отметили, что я помолодела, появилась талия,
+                    ножки постройнели. Нагрузка сначала была непривычная, но
+                    втягиваешься быстро, тем более, что отражение в зеркале
+                    радует. Цены приятные, а если платить на полгода вперед, то
+                    вообще выгодно получается, скидка почти 30%.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--пагинация для отзывов-->
+        <div class="container">
+          <div class="pagination">
+            <div class="pagination__display">
+              Страница 1 из 7
+            </div>
+            <div class="pagination__controls">
+              <a href="#" class="pagination__prev"> </a>
+              <ul class="pagination__pages-list">
+                <li class="pagination__pages-item">
+                  <a
+                    href="#"
+                    class="pagination__pages-link pagination__pages-link_active"
+                    >1</a
+                  >
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">2</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">3</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">4</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">5</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">6</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">7</a>
+                </li>
+              </ul>
+              <a href="#" class="pagination__next"> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="request__pattern">
+        <div class="container">
+          <p class="request__pattern-text">
+            Помимо перечисленных услуг, мы предоставляем консультации
+            профессиональных диетологов, тренеров, психологов. Также есть
+            кабинет массажа, зал спа рядом с бассейном и возможность арендовать
+            центр для проведения массовых мероприятий.
+            <span class="orange__text">Ждем ваших заявок!</span>
+          </p>
+        </div>
+      </section>
+      <!--форма отзыва-->
+      <section class="comment__form">
+        <div class="container">
+          <div class="form">
+            <h2 class="form__title">
+              Оставить отзыв
+            </h2>
+            <form action="" class="form__elem">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__block-title">Ваше имя</div>
+                  <input
+                    placeholder="Толик"
+                    type="text"
+                    name=""
+                    id=""
+                    class="form__input"
+                  />
+                </label>
+                <label class="form__block">
+                  <div class="form__block-title">Ссылка на профиль VK</div>
+                  <input
+                    placeholder="vk.com/example"
+                    type="text"
+                    name=""
+                    id=""
+                    class="form__input"
+                  />
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__block-title">Текст отзыва</div>
+                  <textarea
+                    placeholder="Мне понравилось"
+                    name=""
+                    id=""
+                    class="form__input form__input--textarea"
+                  ></textarea>
+                </label>
+              </div>
+              <div class="form__row">
+                <div class="form__question">
+                  <div class="form__question-text">
+                    Отображать фото в отзыве?
+                  </div>
+                  <div class="radio__buttons">
+                    <label class="radio__label">
+                      <input
+                        class="form__radio-input"
+                        name="radio"
+                        type="radio"
+                      />
+                      <div class="form__radio-input-visible"></div>
+                      <div class="form__radio-input-text">Да</div>
+                    </label>
+                    <label class="radio__label">
+                      <input
+                        class="form__radio-input"
+                        name="radio"
+                        type="radio"
+                      />
+                      <div class="form__radio-input-visible"></div>
+                      <div class="form__radio-input-text">Нет</div>
+                    </label>
+                  </div>
+                </div>
+                <div class="form__buttons">
+                  <button class="send__btn" type="submit">ОТПРАВИТЬ</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <p class="creator__text">
+            Сделано с любовью и старанием на курсе «HTML + CSS» в
+            <a href="https://loftschool.com" class="loftschool__link"
+              >LoftSchool</a
+            >. Автор работы:
+            <a href="https://vk.com/tiredtylerr" class="myvk__link"
+              >Алешков Марк</a
+            >
+          </p>
+          <div class="logo">
+            <a href="./about.html" class="logo__link">афродита</a>
+          </div>
+          <div class="socials">
+            <p class="socials__text">
+              Наши социальные сети
+            </p>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="#" class="socials__link"
+                  ><img
+                    src="./img/socials_vk.png"
+                    alt="мы в контакте"
+                    class="socials__image"
+                /></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link"
+                  ><img
+                    src="./img/socials_fb.png"
+                    alt="мы в фэйсбуке"
+                    class="socials__image"
+                /></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link"
+                  ><img
+                    src="./img/socials_google.png"
+                    alt="мы в гугл плюс"
+                    class="socials__image"
+                /></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link"
+                  ><img
+                    src="./img/socials_twitter.png"
+                    alt="мы в твиттере"
+                    class="socials__image"
+                /></a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="socials__link"
+                  ><img
+                    src="./img/socials_mail.png"
+                    alt="наша почта"
+                    class="socials__image"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>

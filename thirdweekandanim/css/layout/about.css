@@ -1,0 +1,13 @@
+.maincontent {
+    background: white;
+}
+
+.nowrap__content {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.menu__text-active {
+    color: #f89513;
+    ;
+}

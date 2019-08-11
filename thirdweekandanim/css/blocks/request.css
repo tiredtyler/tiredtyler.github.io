@@ -1,0 +1,23 @@
+.request__pattern {
+    background-color: #131415;
+    background-image: url(../img/pattern_comments.png);
+    height: 170px;
+    margin-bottom: 60px;
+}
+
+.request__pattern-text {
+    color: white;
+    margin: 0 auto;
+    font-family: "open-sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 31px;
+    width: 670px;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+.orange__text {
+    color: #f89513;
+    font-weight: bold;
+}
